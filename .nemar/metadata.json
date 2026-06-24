@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Ear-EEG Sleep Monitoring 2017 (EESM17)",
-  "description": "The Ear-EEG Sleep Monitoring 2017 (EESM17) dataset comprises nightly polysomnographic recordings from 9 healthy participants, combining conventional EEG, EOG, and chin EMG with 14 ear-EEG electrodes. The dataset includes both wake-state recordings (subjects relaxing before sleep) and sleep-state recordings (overnight monitoring at subjects' homes), with sleep scoring initiated at lights out. This resource enables investigation of ear-based EEG for sleep monitoring applications.",
-  "methods_description": "Partial polysomnography measurements were collected during nightly recordings at subjects' homes. Data acquisition included standard EEG, EOG, and chin EMG combined with 14 ear-EEG electrodes. Two recording sessions were performed per subject: a wake task (relaxation period before sleep) and a sleep task (overnight recording beginning at bedtime). Recording equipment was mounted in the afternoon prior to data collection.",
+  "description": "The Ear-EEG Sleep Monitoring 2017 (EESM17) dataset comprises nightly polysomnographic recordings from 9 healthy participants, combining conventional EEG, EOG, and chin EMG with 14 ear-EEG electrodes. The dataset includes both wake-state recordings (subjects relaxing before sleep) and sleep-state recordings (overnight monitoring at participants' homes), with sleep scoring initiated at lights out. This resource enables investigation of ear-based EEG for sleep monitoring applications.",
+  "methods_description": "Partial polysomnography measurements were collected during nightly recordings at participants' homes. Data acquisition included conventional EEG, EOG, and chin EMG combined with 14 ear-EEG electrodes. Recordings consisted of two sessions per subject: a wake task (relaxation period before sleep) and a sleep task (overnight monitoring beginning at lights out). Equipment was mounted in the afternoon prior to recordings.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -34,7 +34,9 @@
       "term": "ear-EEG"
     },
     {
-      "term": "sleep stages"
+      "term": "Electrooculography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004585"
     }
   ],
   "related_identifiers": [
