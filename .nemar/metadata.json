@@ -1,0 +1,31 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004348",
+  "source": "openneuro",
+  "source_id": "ds004348",
+  "title": "Ear-EEG Sleep Monitoring 2017 (EESM17)",
+  "authors": {
+    "Kaare B. Mikkelsen": {},
+    "David B. Villadsen": {},
+    "Laura Birch": {},
+    "Marit Otto": {},
+    "Preben Kidmose": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004348.v1.0.5",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
