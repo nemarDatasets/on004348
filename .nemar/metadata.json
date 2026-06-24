@@ -1,31 +1,84 @@
 {
   "version": "2.0",
-  "dataset_id": "on004348",
-  "source": "openneuro",
-  "source_id": "ds004348",
+  "pipeline_stage": "validated",
   "title": "Ear-EEG Sleep Monitoring 2017 (EESM17)",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Kaare B. Mikkelsen": {},
+    "Kaare B. Mikkelsen": {
+      "orcid": "0000-0002-7360-8629"
+    },
     "David B. Villadsen": {},
     "Laura Birch": {},
     "Marit Otto": {},
     "Preben Kidmose": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004348.v1.0.5",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004348",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004348",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1186/s12938-017-0400-5",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".docx",
+    ".edf",
+    ".fdt",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".mlx",
+    ".py",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".xlsx"
+  ],
+  "description": "The Ear-EEG Sleep Monitoring 2017 (EESM17) dataset comprises nightly polysomnographic recordings from 9 healthy participants, combining conventional EEG, EOG, and chin EMG with 14 ear-EEG electrodes. The dataset includes both pre-sleep wake recordings and full-night sleep recordings conducted in participants' homes, with sleep scoring initiated at lights out. This resource enables investigation of ear-based EEG for non-invasive sleep monitoring and characterization of sleep architecture.",
+  "methods_description": "Partial polysomnography recordings were conducted at participants' homes, with equipment mounted in the afternoon. Each participant completed two recording sessions: a pre-sleep wake session (relaxation with reading or television) and a full-night sleep recording beginning at bedtime. EEG data were recorded using 14 ear-EEG electrodes combined with standard EOG and chin EMG channels, stored in EEGLAB .set format.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "sleep monitoring"
+    },
+    {
+      "term": "Polysomnography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017286"
+    },
+    {
+      "term": "wearable electrodes"
+    },
+    {
+      "term": "ear-EEG"
+    }
+  ],
+  "source_hash": "cf08827c03b6608911e615b874ccc075a3351f145bdd05f08f29f50167f6e302"
 }
